@@ -1,0 +1,28 @@
+{
+  "name": "homestats-mqtt-torrent",
+  "version": "1.0.0",
+  "description": "MQTT Publisher for Publishing Stats Data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyentruong17/homestats-mqtt-torrent.git"
+  },
+  "author": "Nguyen Truong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyentruong17/homestats-mqtt-torrent/issues"
+  },
+  "homepage": "https://github.com/nguyentruong17/homestats-mqtt-torrent#readme",
+  "dependencies": {
+    "mqtt": "^4.3.7",
+    "systeminformation": "^5.16.9"
+  },
+  "devDependencies": {
+    "typescript": "4.8"
+  }
+}
